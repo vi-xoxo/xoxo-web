@@ -1,0 +1,31 @@
+body {
+    background-color: #FFE5CF; /* Coral */
+    color: #4B443F; /* Dark Brown */
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000; /* Tan */
+    font-size: 2em;
+  }
+  
+  p {
+    text-align: center;
+    color: #000000; /* Cream */
+  }
+  
+  a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4B443F; /* Tan */
+    color: #ffffff; /* Dark Brown */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #EAD9BE; /* Cream */
+    color: #B59260; /* Coral */
+  }

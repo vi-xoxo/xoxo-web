@@ -1,0 +1,20 @@
+{
+    "name": "xoxo",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#f8fcfa",
+    "background_color": "#f8fcfa",
+    "icons": [
+      {
+        "src": "my 2.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "my 2.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ]
+  }

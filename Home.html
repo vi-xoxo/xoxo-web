@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8fcfa">
+    <title>Home - XOXO ROOM</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+    <h1>NO GAME NO PAIN</h1>
+    <nav >
+        <div class="my_logo">
+            <img src="/my logo.png" alt="my-logo" class="img-logo">
+        </div>
+        <ul>
+            <li>
+               <a href="Home.html">Home</a>
+            </li>
+            <li>
+                <a href="About.html">About</a>
+            </li>
+        </ul>
+        <a href="Contact.html" class="contact">Contact</a>
+    </nav>
+</header>
+
+    <!-- Bagian Home -->
+    <section class="Play">
+        <div class="left">
+            <h2>Play With Me!</h2>
+            <h1>MABAR<br> Dijamin Asik</h1>
+            <a href="#" class="dwld_btn">Download Here</a>
+        </div>
+        <div class="right">
+            <div class="game_logo">
+                <div class="valorant-logo">
+                    <img src="Valorant logo.png" alt="Valorant" class="game-logo-img">
+                </div>
+                <div class="CS-logo">
+                    <img src="CS logo.png" alt="CS" class="game-logo-img">
+                </div>
+                <div class="gta-logo">
+                    <img src="GTA 5 logo.jpg" alt="GTA 5" class="game-logo-img">
+                </div>
+                <div class="rp-logo">
+                    <img src="Five M logo.png" alt="Five M" class="game-logo-img">
+                </div>
+    </section>
+    
+    <script>
+        window.addEventListener("load", () => {
+          if ("sw" in navigator) {
+            navigator.serviceWorker.register("sw.js")
+          }
+        })
+      </script>
+      <script src="./script.js"></script>
+
+
+</body>
+</html>
